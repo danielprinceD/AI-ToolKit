@@ -23,11 +23,10 @@ def display(prompt):
 
 
 
-demo = gr.Interface(
+video_demo = gr.Interface(
+    theme=gr.themes.Soft(),
     fn=display,
     inputs=[gr.components.Textbox(label='Input text')],
     outputs=gr.components.Video(label='Generated Video'),
     allow_flagging='never'
 )
-
-demo.launch(debug=False)

@@ -19,7 +19,7 @@ def response(prompt_input):
     return full_response
      
 
-with gr.Blocks() as demo:
+with gr.Blocks(theme=gr.themes.Soft()) as chat_demo:
     chatbot = gr.Chatbot()
     msg = gr.Textbox()
     clear = gr.ClearButton([msg, chatbot])
@@ -30,5 +30,3 @@ with gr.Blocks() as demo:
         return "", chat_history
 
     msg.submit(respond, [msg, chatbot], [msg, chatbot])
-    
-demo.launch()
