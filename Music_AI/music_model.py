@@ -2,7 +2,7 @@ import gradio as gr
 import os
 import replicate
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_WzTCOwgMPbI4BFN7pgjPo4GJuFK2hu94HB3hi"
+os.environ["REPLICATE_API_TOKEN"] = ""
 
 def generateMusic(text):
     text = text.replace("\n", " ")

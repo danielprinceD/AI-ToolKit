@@ -1,7 +1,7 @@
 import replicate 
 import os
 import gradio as gr
-os.environ["REPLICATE_API_TOKEN"] = "r8_NGoa4pvezqGTNUa2Y2kidYFr4ckcNQc30VDwU"
+os.environ["REPLICATE_API_TOKEN"] = ""
 
 
 def display(prompt):

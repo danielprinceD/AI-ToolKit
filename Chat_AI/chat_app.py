@@ -2,7 +2,7 @@ import os
 import replicate
 import gradio as gr
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_NGoa4pvezqGTNUa2Y2kidYFr4ckcNQc30VDwU"
+os.environ["REPLICATE_API_TOKEN"] = ""
 
 pre_prompt = "You are a helpful assistant. You do not respond as 'User' or pretend to be 'User'. You only respond once as 'Assistant'."
 
