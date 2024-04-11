@@ -1,0 +1,11 @@
+huggingface_hub
+transformers
+langchain
+replicate
+gradio
+torch
+uvicorn
+fastapi
+python-dotenv
+g4f
+diffusers
