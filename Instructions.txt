@@ -1,0 +1,7 @@
+1.Create Replicate API Key Token
+2.Run Backend server
+3.Watch Installation Guide video
+4.After Initiating Backend Server it takes time to complete model preprocessing
+5.API Token is limited only
+6.After API Token is expired you can't able to get output
+7.You can still use code Generator, Chat Bot and Image Generator because it doesn't need API to run.
