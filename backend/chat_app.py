@@ -3,13 +3,9 @@ import replicate
 import gradio as gr
 from dotenv import load_dotenv
 
-<<<<<<< HEAD:backend/chat_app.py
 load_dotenv()
 
 os.environ["REPLICATE_API_TOKEN"] = os.getenv('REPLICATE_API_TOKEN')
-=======
-os.environ["REPLICATE_API_TOKEN"] = ""
->>>>>>> 83b7bf497826fb5e3868070f51372d4cd097b693:Chat_AI/chat_app.py
 
 pre_prompt = "You are a helpful assistant. You do not respond as 'User' or pretend to be 'User'. You only respond once as 'Assistant'."
 

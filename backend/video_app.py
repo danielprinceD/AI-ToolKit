@@ -1,15 +1,11 @@
 import replicate 
 import os
 import gradio as gr
-<<<<<<< HEAD:backend/video_app.py
 from dotenv import load_dotenv
 
 load_dotenv()
 
 os.environ["REPLICATE_API_TOKEN"] = os.getenv('REPLICATE_API_TOKEN')
-=======
-os.environ["REPLICATE_API_TOKEN"] = ""
->>>>>>> 83b7bf497826fb5e3868070f51372d4cd097b693:Video_AI/video_app.py
 
 
 def display(prompt):
